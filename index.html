@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruang Niaga | Order Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Ruang Niaga.</h1>
+        <p class="subtitle">Order Calculator</p>
+
+        <div class="card">
+            <h2>Detail Pesanan</h2>
+
+            <label for="produk">Pilih Produk</label>
+            <select id="produk">
+                <option value="18000">Kopi Susu - Rp18.000</option>
+                <option value="15000">Americano - Rp15.000</option>
+                <option value="20000">Cafe Latte - Rp20.000</option>
+                <option value="22000">Matcha Latte - Rp22.000</option>
+            </select>
+
+            <label for="jumlah">Jumlah Pesanan</label>
+            <input type="number" id="jumlah" min="1" value="1">
+
+            <button onclick="hitung()">Hitung Pesanan</button>
+        </div>
+
+        <div class="card hasil">
+            <h2>Ringkasan Pembayaran</h2>
+
+            <p>Subtotal: <span id="subtotal">Rp0</span></p>
+            <p>Diskon: <span id="diskon">Rp0</span></p>
+            <p>Pajak (11%): <span id="pajak">Rp0</span></p>
+
+            <hr>
+
+            <h3>Total: <span id="total">Rp0</span></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
