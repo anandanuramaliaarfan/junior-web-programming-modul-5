@@ -1,78 +1,78 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f4ef;
-    color: #35291f;
-    margin: 0;
-    padding: 30px 15px;
+  font-family: Arial, sans-serif;
+  background-color: #f7f4ef;
+  color: #35291f;
+  margin: 0;
+  padding: 30px 15px;
 }
 
 .container {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 h1 {
-    color: #5b3928;
-    margin-bottom: 5px;
+  color: #5b3928;
+  margin-bottom: 5px;
 }
 
 .subtitle {
-    color: #888;
-    margin-top: 0;
-    margin-bottom: 25px;
+  color: #888;
+  margin-top: 0;
+  margin-bottom: 25px;
 }
 
 .card {
-    background-color: white;
-    padding: 25px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
 }
 
 label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 8px;
-    font-weight: bold;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  font-weight: bold;
 }
 
 select,
 input {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 14px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
 }
 
 button {
-    width: 100%;
-    padding: 13px;
-    margin-top: 20px;
-    background-color: #5b3928;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 15px;
+  width: 100%;
+  padding: 13px;
+  margin-top: 20px;
+  background-color: #5b3928;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 button:hover {
-    background-color: #a66b45;
+  background-color: #a66b45;
 }
 
 .hasil p {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .hasil h3 {
-    display: flex;
-    justify-content: space-between;
-    color: #a66b45;
+  display: flex;
+  justify-content: space-between;
+  color: #a66b45;
 }
